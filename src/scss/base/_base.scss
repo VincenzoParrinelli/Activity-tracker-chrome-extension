@@ -8,16 +8,12 @@
 
 html {
     font-size: 62.5%;
+    overflow: hidden;
 }
 
 body {
     box-sizing: border-box;
-}
-
-.App {
     width: 440px;
     height: 600px;
-    display: flex;
-    flex-direction: column;
-    overflow-x: hidden;
+    overflow: inherit;
 }

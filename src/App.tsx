@@ -1,11 +1,11 @@
-import { useState } from 'react'
+import ActivityList from "./Components/ActivityList"
 
 function App() {
 
   return (
-    <div className="app">
-      SASASASA
-    </div>
+
+    <ActivityList />
+    
   )
 }
 
